@@ -299,10 +299,10 @@ function App() {
       <h2 id="state-title">{selectedState.name}</h2>
       <p id="state-description">{selectedState.description}</p>
 	  <br></br>
-      <h2 id="city-name">{selectedCity.name}</h2>
+      <h2 id="city-title">{selectedCity.name}</h2>
 	  <p id="city-description">{selectedCity.description}</p>
 	  <br></br>
-      <h2 id="landmark-name">{seletedLandmark.name}</h2>
+      <h2 id="landmark-title">{seletedLandmark.name}</h2>
 	  <p id="landmark-description">{seletedLandmark.description}</p>
     </div>
   );
