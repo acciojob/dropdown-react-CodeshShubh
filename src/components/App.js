@@ -296,10 +296,10 @@ function App() {
       </select>
 
 	  <h3>Selected:</h3>
-      <h2 id="state-title"> {selectedState.name}</h2>
+      <h2 id="state-title">{selectedState.name}</h2>
       <p id="state-description">{selectedState.description}</p>
 	  <br></br>
-      <h2 id="city-name"> {selectedCity.name}</h2>
+      <h2 id="city-name">{selectedCity.name}</h2>
 	  <p id="city-description">{selectedCity.description}</p>
 	  <br></br>
       <h2 id="landmark-name">{seletedLandmark.name}</h2>
